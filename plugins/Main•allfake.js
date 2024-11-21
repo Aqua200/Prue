@@ -33,10 +33,10 @@ let user = global.db.data.users[who]
 let pushname = m.pushName || 'Sin nombre'
 
 //creador y otros
-global.creador = 'Wa.me/5493876639332'
+global.creador = 'Wa.me/573163952124'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'https://wa.me/5493876639332'
-global.namechannel = 'Tҽαɱ Cԋαɳɳҽʅ Iαɳ 🌸'
+global.asistencia = 'https://wa.me/573163952124'
+global.namechannel = '💖⃟Runa࿑࿐'
 
 //Reacciones De Comandos.!
 global.rwait = '🕒'
@@ -57,19 +57,19 @@ global.waittt = '🧸 Eʂρҽɾҽ υɳ ɱσɱҽɳƚσ...'
 global.waitttt = '🧸 Eʂρҽɾҽ υɳ ɱσɱҽɳƚσ...'
 
 //Enlaces
-var canal = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A'  
-var canal2 = 'https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z'
-var git = 'https://github.com/ianalejandrook15x' 
-var youtube = 'https://www.youtube.com/@ianalejandrook15x' 
-var github = 'https://github.com/ianalejandrook15x/AkariBot-MD'  
-var panel = 'https://panel.skyultraplus.com'
-var dash = 'https://dash.skyultraplus.com'
-var tienda = 'https://dash.skyultraplus.com/store'
-var status = 'https://estado.skyultraplus.com'
-var discord = 'https://discord.com/invite/T7ksHu7mkz'
-var paypal = 'https://paypal.me/kevintomasolazo23'
-let tiktok = 'https://tiktok.com/@ian.ian271'
-let correo = 'alejandroxddd92@gmail.com'
+var canal = ''  
+var canal2 = ''
+var git = '' 
+var youtube = '' 
+var github = ''  
+var panel = ''
+var dash = ''
+var tienda = ''
+var status = ''
+var discord = ''
+var paypal = ''
+let tiktok = ''
+let correo = ''
 
 global.redes = [canal, canal2, git, youtube, github, panel, dash, tienda, status, discord, paypal, tiktok, correo].getRandom()
 
@@ -100,7 +100,7 @@ global.fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJ
 
 // global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
 
-global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363318758721861@newsletter', newsletterName: namechannel, serverMessageId: -1 }
+global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363344959608845@newsletter', newsletterName: namechannel, serverMessageId: -1 }
 }}, { quoted: m }
 
 global.icono = [ 
@@ -109,6 +109,6 @@ global.icono = [
 'https://qu.ax/TcfhE.jpg'
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363318758721861@newsletter", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: namebot, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363344959608845@newsletter", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: namebot, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
