@@ -44,12 +44,12 @@ global.jadi = 'AkariJadiBot'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = 'Aƙαɾι Bσƚ - MD'
-global.botname = 'Aƙαɾι - MD 🌸'
-global.wm = 'AƙαɾιBσƚ-MD 🌸'
-global.author = 'By ianalejandrook15x'
-global.dev = 'Pσɯҽɾҽԃ Bყ Tҽαɱ Sԋιɳιɳɠ'
-global.textbot = 'Aƙαɾι : ιαɳαʅҽʝαɳԃɾσσƙ15x 🌸'
+global.packname = 'ೃ Runa⊹'
+global.botname = 'Runa🌸'
+global.wm = 'Runa🌸'
+global.author = 'By neykoor🌹'
+global.dev = ''
+global.textbot = 'Runa✨'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
