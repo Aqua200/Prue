@@ -29,29 +29,29 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `ೃ Menu runa ⊹Ꮺ⊹🌸
+  before: `Mҽɳυ ԃҽ Aƙαɾι 🌸
 
 *ੈ✩‧₊˚ Info usuario ⋆.ೃ࿔*:･
 
-𖤍🌹 Cliente » \`\`\`%name\`\`\`
+🌸 Cliente » \`\`\`%name\`\`\`
 ✨ Exp » \`\`\`%exp\`\`\`
 💴 Yenes » \`\`\`%yenes\`\`\`
 🛡 Nivel » \`\`\`%level\`\`\`
 💫 Rango » \`\`\`%role\`\`\`
 
-*ੈ✩‧Informe del bot.ೃ࿔*:･
+*ੈ✩‧₊˚ Iɳϝσ ԃҽ ʅα Ⴆσƚ ⋆.ೃ࿔*:･
 
-𖤍🌹Made by » \`\`\`@ianalejandrook15x\`\`\`
-𖤍🌹Bot » \`\`\`%botofc\`\`\`
-𖤍🌹Fecha » \`\`\`%fecha\`\`\`
-𖤍🌹Actividad » \`\`\`%muptime\`\`\`
-𖤍🌹Usuarios » \`\`\`%totalreg\`\`\`
+🌸 Made by » \`\`\`@ianalejandrook15x\`\`\`
+🌸 Bot » \`\`\`%botofc\`\`\`
+🌸 Fecha » \`\`\`%fecha\`\`\`
+🌸 Actividad » \`\`\`%muptime\`\`\`
+🌸 Usuarios » \`\`\`%totalreg\`\`\`
 
-\t*🌠 𝑳 𝑰 𝑺 𝑻 - 𝑪 𝑶 𝑴 𝑴 𝑨 𝑵 𝑫 𝑺 🌠* 
+\t*L I S T A  -  D E  -  C O M A N D O S* 
 `.trimStart(),
-    header: '* ¸.*☆*¸.*♡*.¸: 🪷 :¸.*☆*¸.*♡*.¸\n* ⁝⁞ ⍆𖤍 🌹 ⭔ %category\n* ⁝⁞ ⍆𖤍 🌹 ──── ◉ ────',
-  body: '* ⁝⁞ ⍆𖤍 🌹 %cmd',
-  footer: '* ✽+†+✽―― ☆. ∆ .☆ ――✽+†+✽\n',
+    header: '「 %category 」\n',
+  body: 'ღ %cmd',
+  footer: '',
   after: `> ${dev}`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
