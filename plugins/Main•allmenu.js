@@ -29,7 +29,7 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `Mҽɳυ ԃҽ Aƙαɾι 🌸
+  before: `menu runa🌸
 
 *ੈ✩‧₊˚ Info usuario ⋆.ೃ࿔*:･
 
@@ -41,7 +41,7 @@ const defaultMenu = {
 
 *ੈ✩‧₊˚ Iɳϝσ ԃҽ ʅα Ⴆσƚ ⋆.ೃ࿔*:･
 
-🌸 Made by » \`\`\`@ianalejandrook15x\`\`\`
+🌸 Made by » \`\`\`@Neykoors\`\`\`
 🌸 Bot » \`\`\`%botofc\`\`\`
 🌸 Fecha » \`\`\`%fecha\`\`\`
 🌸 Actividad » \`\`\`%muptime\`\`\`
