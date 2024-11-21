@@ -109,8 +109,6 @@ if (!('modohorny' in chat))
 chat.modohorny = false
 if (!('reaction' in chat))
 chat.reaction = false
-if (!('simi' in chat))
-chat.simi = false
 if (!('antiver' in chat))
 chat.antiver = false
 if (!('delete' in chat))
@@ -129,7 +127,6 @@ antiBot: false,
 antiBot2: false,
 modoadmin: false,
 antiLink: false,
-simi: false,
 antiver: false,
 modohorny: false, 
 reaction: false,
