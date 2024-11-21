@@ -6,10 +6,10 @@ let staff = `🌹 *EQUIPO DE AYUDANTES*
 
 👑 *Propietario:*
 
-• ianalejandrook15x
+• Neykoor
 🌸 *Rol:* Propietario
 🌴 *Número:* ${creador}
-🌸 *GitHub:* https://github.com/ianalejandrook15x`
+🌸 *GitHub:* `
 await conn.sendFile(m.chat, icons, 'akari.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
