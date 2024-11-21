@@ -1,1 +1,26 @@
-import _0x5effe1 from'node-fetch';let handler=_0x2aa926=>_0x2aa926;handler['before']=async _0x2668be=>{let _0x26f9d6=global['db']['data']['chats'][_0x2668be['chat']];if(_0x26f9d6['simi']){if(/^.*false|disnable|(turn)?off|0/i['test'](_0x2668be['text']))return;let _0x5e954f=_0x2668be['text'];try{let _0xc45c2f=await _0x5effe1('https://api.simsimi.net/v2/?text='+encodeURIComponent(_0x5e954f)+'&lc=es'),_0x3fe96f=await _0xc45c2f['json']();if(_0x3fe96f['success']=='No\x20sé\x20lo\x20qué\x20estás\x20diciendo.\x20Por\x20favor\x20enseñame.')return _0x2668be['reply'](''+lol);await _0x2668be['reply'](_0x3fe96f['success']);}catch{if(_0x5e954f['includes']('Hola'))_0x5e954f=_0x5e954f['replace']('Hola','Hello');if(_0x5e954f['includes']('hola'))_0x5e954f=_0x5e954f['replace']('hola','hello');if(_0x5e954f['includes']('HOLA'))_0x5e954f=_0x5e954f['replace']('HOLA','HELLO');let _0x428858=await _0x5effe1('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q='+_0x5e954f),_0x246d4f=await _0x428858['json'](),_0x53ebdb=_0x2668be['pushName']||'1',_0x4f3c97=await _0x5effe1('http://api.brainshop.ai/get?bid=153868&key=rcKonOgrUFmn5usX&uid='+_0x53ebdb+'&msg='+_0x246d4f[0x0][0x0][0x0]),_0xa92e5c=await _0x4f3c97['json'](),_0x4b69e7=await _0x5effe1('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=es&dt=t&q='+_0xa92e5c['cnt']),_0x1321a5=await _0x4b69e7['json']();await _0x2668be['reply'](_0x1321a5[0x0][0x0][0x0]);}return!0x0;}return!![];};export default handler;
+let fetch = require('node-fetch')
+let handler = async (m, { text, usedPrefix, command }) => {
+if (!text) throw `*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝚃𝙴𝚇𝚃𝙾 𝙿𝙰𝚁𝙰 𝙷𝙰𝙱𝙻𝙰𝚁 𝙲𝙾𝙽 𝚂𝙸𝙼𝚂𝙸𝙼𝙸 𝙾 𝙴𝙻 𝙱𝙾𝚃*\n\n*𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} Hola bot*`  
+try {
+let ressimi = await fetch(`https://api.simsimi.net/v2/?text=${encodeURIComponent(text)}&lc=es`)
+let data = await ressimi.json();                                                             
+if (data.success == 'No s\u00e9 lo qu\u00e9 est\u00e1s diciendo. Por favor ense\u00f1ame.') return m.reply(`${lol}`) /* EL TEXTO "lol" NO ESTA DEFINIDO PARA DAR ERROR Y USAR LA OTRA API */
+await m.reply(data.success)
+} catch {
+/* SI DA ERROR USARA ESTA OTRA OPCION DE API DE IA QUE RECUERDA EL NOMBRE DE LA PERSONA */
+if (text.includes('Hola')) text = text.replace('Hola', 'Hello')
+if (text.includes('hola')) text = text.replace('hola', 'hello')
+if (text.includes('HOLA')) text = text.replace('HOLA', 'HELLO')    
+let reis = await fetch("https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q=" + textodem)
+let resu = await reis.json()  
+let nama = m.pushName || '1'
+let api = await fetch("http://api.brainshop.ai/get?bid=153868&key=rcKonOgrUFmn5usX&uid=" + nama + "&msg=" + resu[0][0][0])
+let res = await api.json()
+let reis2 = await fetch("https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=es&dt=t&q=" + res.cnt)
+let resu2 = await reis2.json()
+await m.reply(resu2[0][0][0])
+}}
+handler.help = ['simsimi']
+handler.tags = ['general']
+handler.command = ['bot', 'simi', 'simsimi'] 
+module.exports = handler
