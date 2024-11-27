@@ -19,7 +19,7 @@
 [![Click Aquí](https://img.shields.io/badge/WhatsApp-Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/U7HK4IFBZPUPF1)
 
 💛 **`INSTALACION MANUAL POR TERMUX`**
-
+      No disponible 
 
 [`🚩 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/pqd980pnrqrz7r3/termux-app_v0.118.1+github-debug_arm64-v8a.apk/file)
 
