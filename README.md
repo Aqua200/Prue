@@ -42,10 +42,10 @@ yarn install && npm update && npm i
 npm start
 ```
 
- OBTENER OTRO CODIGO QR
+ ### `OBTENER OTRO CODIGO QR`
+```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-
-```cd runa
-```
+> cd runa
 > rm -rf sessions
 > npm start
+```
