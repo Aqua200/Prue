@@ -1,5 +1,5 @@
 {
-"name": "AkariBot-MD",
+"name": "runa",
 "version": "2.0.7",
 "description": "Simple WhatsApp Bot Multi Device",
 "main": "index.js",
@@ -18,9 +18,9 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/ianalejandrook15x/AkariBot-MD",
+"homepage": "https://github.com/Aqua200/runa",
 "author": {
-"name": "ianalejandrook15x"
+"name": "Aqua200"
 },
 "collaborators": {
 "col1": "David-Chian",
@@ -30,10 +30,10 @@
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/ianalejandrook15x/AkariBot-MD.git"
+"url": "git+https://github.com/Aqua200/runa.git"
 },
 "bugs": {
-"url": "https://github.com/ianalejandrook15x/AkariBot-MD/issues"
+"url": "https://github.com/Aqua200/runa/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
