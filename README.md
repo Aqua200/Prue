@@ -41,8 +41,11 @@ yarn install && npm update && npm i
 ```bash
 npm start
 ```
-> OBTENER OTRO CODIGO QR
+
+ OBTENER OTRO CODIGO QR
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd Kumiko-MD-V2
+
+```cd runa
+```
 > rm -rf sessions
 > npm start
